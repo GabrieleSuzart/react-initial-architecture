@@ -132,3 +132,19 @@ module.exports = {
   "build": "webpack --mode production"
 },
 ```
+
+
+10 - Add plugin to use async await
+
+10.1 - Tranform runtime
+```
+yarn add @babel/plugin-transform-runtime
+```
+
+10.2 - Add in `babel.config.js`
+```
+plugins: [
+  '@babel/plugin-transform-runtime'
+]
+
+```
