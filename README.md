@@ -53,9 +53,10 @@ yarn add file-loader
 `! + enter` to structure html initial
 ```
 
-6.1 - Add element root in tag `<body>`
+6.1 - Add element root and script in tag `<body>`
 ```
 <div id="app"></div>
+<script src="bundle.js"></script>
 ```
 
 7 - Create folder `src` with files `App.js` and `index.js` 
